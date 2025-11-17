@@ -232,7 +232,7 @@ router.get('/', async (req, res) => {
                         let b64data = compressedData.toString('base64');
 
                             const Sess = await Gifted.sendMessage(Gifted.user.id, { 
-                            text: 'Gifted~' + b64data
+                            text: 'JUNE-MD:~' + b64data
                         });
 
                         let GIFTED_TEXT = `
@@ -240,11 +240,6 @@ router.get('/', async (req, res) => {
 
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mauricegift_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mauricegift/gifted-md_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y_
-║ 💜💜💜
 ╚══════════════╝ 
 
 Use the Quoted Session ID to Deploy your Bot.
@@ -258,8 +253,8 @@ Use the Quoted Session ID to Deploy your Bot.
                                 forwardingScore: 5,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363408839929349@newsletter',
-                                    newsletterName: "GIFTED-TECH",
+                                    newsletterJid: '@newsletter',
+                                    newsletterName: "TECH",
                                     serverMessageId: 143
                                 }
                             }
@@ -275,7 +270,7 @@ Use the Quoted Session ID to Deploy your Bot.
                                 forwardingScore: 5,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363408839929349@newsletter',
+                                    newsletterJid: 'l@newsletter',
                                     newsletterName: "GIFTED-TECH",
                                     serverMessageId: 143
                                 }
